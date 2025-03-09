@@ -112,7 +112,7 @@ export const exec = async (
       code: status.code,
       success: status.success,
     },
-    output: response.trim(),
+    output: response,
   };
   if (options.verbose) {
     console.log("    Exec Result: ", result);
